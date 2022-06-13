@@ -34,7 +34,7 @@ bench = false
 autocfg = "1"
 [dependencies]
 serde = { version = "1.0", optional = true, default-features = false }
-rayon = { git = "https://github.com/ryoqun/rayon", rev = "4dc3a287e2248360d7dc6c8ae0acaa7831c839c5", optional = true }
+rayon = { git = "https://github.com/ryoqun/rayon", rev = "443200afa00c590a8324f3f31bc3c92f8f220b50", optional = true }
 
 # Internal feature, only used when building as part of rustc,
 # not part of the stable interface of this crate.
